@@ -23,7 +23,93 @@
 </head>
 
 <body>
-  <h2>Hello World!</h2>
+  <main class="container">
+    <div class="row">
+      <div class="col-5">
+        <!-- mac book image -->
+        <figure>
+          <img src="./img/mac.png" alt="iMac" class="img-fluid">
+        </figure>
+      </div>
+      <div class="col-6 offset-1">
+        <!-- title and description -->
+        <header class="mb-5">
+          <h2>Customize your Blue 24-inch iMac with Apple M1 chip.</h2>
+          <article>Apple M1 chip with 8-core CPU with 4 performance cores and 4 efficiency cores, 7-core GPU, and
+            16-core Neural Engine 8GB unified memory 256GB SSD storage. Two Thunderbolt / USB 4 ports Magic Mouse Magic
+            Keyborad- US English.</article>
+        </header>
+        <!-- memory section -->
+        <section class="mb-3">
+          <h6 class="fw-bold">Memory</h6>
+          <div>
+            <button class="btn btn-outline-dark">8GB unified memory</button>
+            <button class="btn btn-outline-dark">16GB unified memory</button>
+          </div>
+        </section>
+        <!-- storage section -->
+        <section class="mb-3">
+          <h6 class="fw-bold">Storage</h6>
+          <div>
+            <button class="btn btn-outline-dark">256GB SSD storage</button>
+            <button class="btn btn-outline-dark">512GB SSD storage</button>
+            <button class="btn btn-outline-dark">1TB SSD storage</button>
+          </div>
+        </section>
+        <!-- delivery section -->
+        <section class="mb-3">
+          <h6 class="fw-bold">Choose your delivery option</h6>
+          <div>
+            <button class="btn btn-outline-dark">Friday, Aug 25 FREE Prime Delivery</button>
+            <button class="btn btn-outline-dark">Friday, Aug 21 Delivery charge $20</button>
+          </div>
+        </section>
+        <!-- Price section -->
+        <section class="w-50">
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item d-flex justify-content-between">
+              <h6 class="fw-bold">Best price: </h6>
+              <h6 class="fw-bold">$<span>1299</span></h6>
+            </li>
+            <li class="list-group-item d-flex justify-content-between">
+              <h6 class="fw-bold">Extra Memory Cost: </h6>
+              <h6 class="fw-bold">$<span>0</span></h6>
+            </li>
+            <li class="list-group-item d-flex justify-content-between">
+              <h6 class="fw-bold">Extra Storage Cost: </h6>
+              <h6 class="fw-bold">$<span>0</span></h6>
+            </li>
+            <li class="list-group-item d-flex justify-content-between">
+              <h6 class="fw-bold">Delivery charge: </h6>
+              <h6 class="fw-bold">$<span>1299</span></h6>
+            </li>
+            <li class="list-group-item d-flex justify-content-between">
+              <h6 class="fw-bold">Total Price: </h6>
+              <h6 class="fw-bold">$<span>1299</span></h6>
+            </li>
+          </ul>
+        </section>
+        <!-- Promo section -->
+        <section>
+          <h6 class="fw-light">Add Promo code</h6>
+          <form class="row align-items-center">
+            <div class="col-6">
+              <input type="text" class="form-control">
+            </div>
+            <div class="col-2">
+              <button type="submit" class="btn btn-danger">Apply</button>
+            </div>
+          </form>
+        </section>
+      </div>
+    </div>
+
+    <hr>
+    <!-- Total section -->
+    <section class="my-5">
+      <h3 class="text-center fw-bold">Total: $<span>1299</span></h3>
+    </section>
+  </main>
 
   <!-- Bootstrap js -->
   <script src="/js/bootstrap.bundle.min.js"></script>
