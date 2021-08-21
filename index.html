@@ -23,7 +23,7 @@
 </head>
 
 <body>
-  <main class="container">
+  <main class="container my-5">
     <div class="row">
       <div class="col-5">
         <!-- mac book image -->
@@ -43,25 +43,25 @@
         <section class="mb-3">
           <h6 class="fw-bold">Memory</h6>
           <div>
-            <button class="btn btn-outline-dark">8GB unified memory</button>
-            <button class="btn btn-outline-dark">16GB unified memory</button>
+            <button id="memory8gb" class="btn btn-outline-dark">8GB unified memory</button>
+            <button id="memory16gb" class="btn btn-outline-dark">16GB unified memory</button>
           </div>
         </section>
         <!-- storage section -->
         <section class="mb-3">
           <h6 class="fw-bold">Storage</h6>
           <div>
-            <button class="btn btn-outline-dark">256GB SSD storage</button>
-            <button class="btn btn-outline-dark">512GB SSD storage</button>
-            <button class="btn btn-outline-dark">1TB SSD storage</button>
+            <button id="storage256gb" class="btn btn-outline-dark">256GB SSD storage</button>
+            <button id="storage512gb" class="btn btn-outline-dark">512GB SSD storage</button>
+            <button id="storage1tb" class="btn btn-outline-dark">1TB SSD storage</button>
           </div>
         </section>
         <!-- delivery section -->
         <section class="mb-3">
           <h6 class="fw-bold">Choose your delivery option</h6>
           <div>
-            <button class="btn btn-outline-dark">Friday, Aug 25 FREE Prime Delivery</button>
-            <button class="btn btn-outline-dark">Friday, Aug 21 Delivery charge $20</button>
+            <button id="deliveryFree" class="btn btn-outline-dark">Friday, Aug 25 FREE Prime Delivery</button>
+            <button id="deliveryCost" class="btn btn-outline-dark">Friday, Aug 21 Delivery charge $20</button>
           </div>
         </section>
         <!-- Price section -->
@@ -69,37 +69,37 @@
           <ul class="list-group list-group-flush">
             <li class="list-group-item d-flex justify-content-between">
               <h6 class="fw-bold">Best price: </h6>
-              <h6 class="fw-bold">$<span>1299</span></h6>
+              <h6 class="fw-bold">$<span id="bestPrice">1299</span></h6>
             </li>
             <li class="list-group-item d-flex justify-content-between">
               <h6 class="fw-bold">Extra Memory Cost: </h6>
-              <h6 class="fw-bold">$<span>0</span></h6>
+              <h6 class="fw-bold">$<span id="extraMemoryCost">0</span></h6>
             </li>
             <li class="list-group-item d-flex justify-content-between">
               <h6 class="fw-bold">Extra Storage Cost: </h6>
-              <h6 class="fw-bold">$<span>0</span></h6>
+              <h6 class="fw-bold">$<span id="extraStorageCost">0</span></h6>
             </li>
             <li class="list-group-item d-flex justify-content-between">
               <h6 class="fw-bold">Delivery charge: </h6>
-              <h6 class="fw-bold">$<span>1299</span></h6>
+              <h6 class="fw-bold">$<span id="deliverCharge">0</span></h6>
             </li>
             <li class="list-group-item d-flex justify-content-between">
               <h6 class="fw-bold">Total Price: </h6>
-              <h6 class="fw-bold">$<span>1299</span></h6>
+              <h6 class="fw-bold">$<span id="totalPrice">1299</span></h6>
             </li>
           </ul>
         </section>
         <!-- Promo section -->
         <section>
           <h6 class="fw-light">Add Promo code</h6>
-          <form class="row align-items-center">
+          <div class="row align-items-center">
             <div class="col-6">
-              <input type="text" class="form-control">
+              <input id="promoCode" type="text" class="form-control">
             </div>
             <div class="col-2">
-              <button type="submit" class="btn btn-danger">Apply</button>
+              <button id="promoApply" type="submit" class="btn btn-danger">Apply</button>
             </div>
-          </form>
+          </div>
         </section>
       </div>
     </div>
@@ -107,7 +107,7 @@
     <hr>
     <!-- Total section -->
     <section class="my-5">
-      <h3 class="text-center fw-bold">Total: $<span>1299</span></h3>
+      <h3 class="text-center fw-bold">Total: $<span id="finalTotal">1299</span></h3>
     </section>
   </main>
 
